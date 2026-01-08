@@ -318,7 +318,7 @@ class FootSegmentationLogic(ScriptedLoadableModuleLogic):
     
     # Model URL - Will be downloaded from GitHub Releases
     # Update this URL according to your GitHub release
-    MODEL_URL = "https://github.com/cuneytozdemir/FootSegmentation/releases/download/v1.0.0/foot_segmentation.onnx"
+    MODEL_URL = "https://github.com/cuneytozdemir/SlicerFootSegmentation/releases/download/v1.0.0/foot_segmentation.onnx"
     MODEL_FILENAME = "foot_segmentation.onnx"
     
     def __init__(self):
