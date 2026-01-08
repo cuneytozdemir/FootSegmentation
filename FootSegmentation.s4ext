@@ -1,0 +1,34 @@
+#
+# FootSegmentation - 3D Slicer Extension Description
+#
+# Bu dosya 3D Slicer Extension Index'e eklenmek için kullanılır.
+# https://github.com/Slicer/ExtensionsIndex
+#
+
+scm git
+scmurl https://github.com/YOUR_USERNAME/SlicerFootSegmentation.git
+scmrevision main
+
+# Extension bilgileri
+build_subdirectory .
+homepage https://github.com/YOUR_USERNAME/SlicerFootSegmentation
+contributors Your Name (Your Institution)
+category Segmentation
+
+# Extension açıklaması
+description AI-powered automatic 3D foot segmentation using deep learning. This extension provides automatic segmentation of foot structures from NIfTI/DICOM volumes using a pre-trained 3D U-Net model converted to ONNX format for optimal performance and portability.
+
+# Ekran görüntüsü URL'leri (virgülle ayrılmış)
+screenshoturls https://raw.githubusercontent.com/YOUR_USERNAME/SlicerFootSegmentation/main/Screenshots/screenshot1.png
+
+# İkon URL
+iconurl https://raw.githubusercontent.com/YOUR_USERNAME/SlicerFootSegmentation/main/FootSegmentation/Resources/Icons/FootSegmentation.png
+
+# Bağımlılıklar (varsa)
+depends NA
+
+# Extension durumu
+status 
+
+# Etkinleştirildiği Slicer sürümü (minimum)
+slicer_revision 30893
