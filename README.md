@@ -33,7 +33,7 @@ This extension provides automatic segmentation of foot structures from 3D medica
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/cuneytozdemir/SlicerFootSegmentation.git
+   git clone https://github.com/cuneytozdemir/FootSegmentation.git
    ```
 
 2. In 3D Slicer, go to Edit → Application Settings → Modules
@@ -47,7 +47,7 @@ This extension provides automatic segmentation of foot structures from 3D medica
 1. Load a volume (File → Add Data)
 2. Open Modules → Segmentation → Foot Segmentation
 3. Select your input volume
-4. Click "Segmentasyon Başlat" (Start Segmentation)
+4. Click Start Segmentation
 5. The segmentation result will appear automatically
 
  Requirements
@@ -79,7 +79,7 @@ If you use this extension in your research, please cite:
   author = {Cuneyt OZDEMİR, Mehmet Ali GEDİK},
   title = {SlicerFootSegmentation: AI-powered 3D Foot Segmentation},
   year = {2026},
-  url = {https://github.com/cuneytozdemir/SlicerFootSegmentation}
+  url = {https://github.com/cuneytozdemir/FootSegmentation}
 }
 ```
 
@@ -102,3 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Author: Cüneyt ÖZDEMİR
 - Email: cuneytozdemir33@gmail.com
 - Institution: Siirt Üniversitesi
+
